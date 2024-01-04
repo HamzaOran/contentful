@@ -1,4 +1,4 @@
-import { previewClient } from '@/lib/contentful/client';
+import { previewClient } from '../../lib/contentful/client';
 
 const handler = async (req, res) => {
   const { secret, slug } = req.query;
